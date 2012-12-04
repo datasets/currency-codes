@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "name": "currency-codes",
+    "title": "ISO 4217 Currency Codes",
+    "licenses": [
+      {
+        "id": "odc-pddl",
+        "label": "Open Data Commons Public Domain Dedication and Licence (PDDL)",
+        "url": "http://opendatacommons.org/licenses/pddl/"
+      }
+    ],
+    "keywords": [ "iso", "iso-4217", "currency", "codes" ], 
+    "homepage": "http://www.iso.org/iso/currency_codes",
+    "source": [{
+      "name": "SIX Interbank Clearing Ltd (on behalf of ISO)", 
+      "email": "office@currency-iso.org"
+    }],
+    "maintainer": [{
+      "name": "Rufus Pollock", 
+      "email": "rufus.pollock@okfn.org"
+    }]
+  },
+  "files": [
+    {
+      "path": "data/codes-all.csv",
+      "mimetype": "text/csv", 
+      "size": "16863", 
+      "fields": [
+        {
+          "id": "Entity",
+          "type": "string",
+          "description": "Country or region name"
+        },
+        {
+          "id": "Currency",
+          "type": "string",
+          "description": "Name of the currency"
+        },
+        {
+          "id": "AlphabeticCode",
+          "label": "Alphabetic Code",
+          "type": "string",
+          "description": "3 digit alphabetic code for the currency"
+        },
+        {
+          "id": "NumericCode",
+          "label": "Numeric Code",
+          "type": "integer",
+          "description": "3 digit numeric code"
+        },
+        {
+          "id": "WithdrawalDate",
+          "label": "Withdrawal Date",
+          "type": "string",
+          "description": "Date currency withdrawn (values can be ranges or months"
+        },
+        {
+          "id": "Remark",
+          "type": "string",
+          "description": "A general remark or comment"
+        }
+      ]
+    }
+  ]
+}
