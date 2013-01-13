@@ -1,26 +1,24 @@
 {
-  "metadata": {
-    "name": "currency-codes",
-    "title": "ISO 4217 Currency Codes",
-    "licenses": [
-      {
-        "id": "odc-pddl",
-        "label": "Open Data Commons Public Domain Dedication and Licence (PDDL)",
-        "url": "http://opendatacommons.org/licenses/pddl/"
-      }
-    ],
-    "keywords": [ "iso", "iso-4217", "currency", "codes" ], 
-    "homepage": "http://www.iso.org/iso/currency_codes",
-    "source": [{
-      "name": "SIX Interbank Clearing Ltd (on behalf of ISO)", 
-      "email": "office@currency-iso.org"
-    }],
-    "maintainer": [{
-      "name": "Rufus Pollock", 
-      "email": "rufus.pollock@okfn.org"
-    }]
-  },
-  "files": [
+  "name": "currency-codes",
+  "title": "ISO 4217 Currency Codes",
+  "licenses": [
+    {
+      "id": "odc-pddl",
+      "label": "Open Data Commons Public Domain Dedication and Licence (PDDL)",
+      "url": "http://opendatacommons.org/licenses/pddl/"
+    }
+  ],
+  "keywords": [ "iso", "iso-4217", "currency", "codes" ], 
+  "homepage": "http://www.iso.org/iso/currency_codes",
+  "sources": [{
+    "name": "SIX Interbank Clearing Ltd (on behalf of ISO)", 
+    "email": "office@currency-iso.org"
+  }],
+  "maintainer": [{
+    "name": "Rufus Pollock", 
+    "email": "rufus.pollock@okfn.org"
+  }],
+  "data": [
     {
       "path": "data/codes-all.csv",
       "mimetype": "text/csv", 
