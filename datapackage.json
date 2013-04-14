@@ -18,7 +18,7 @@
     "name": "Rufus Pollock", 
     "email": "rufus.pollock@okfn.org"
   }],
-  "files": [
+  "resources": [
     {
       "path": "data/codes-all.csv",
       "mimetype": "text/csv", 
