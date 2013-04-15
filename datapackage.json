@@ -23,41 +23,43 @@
       "path": "data/codes-all.csv",
       "mimetype": "text/csv", 
       "size": "16863", 
-      "fields": [
-        {
-          "id": "Entity",
-          "type": "string",
-          "description": "Country or region name"
-        },
-        {
-          "id": "Currency",
-          "type": "string",
-          "description": "Name of the currency"
-        },
-        {
-          "id": "AlphabeticCode",
-          "label": "Alphabetic Code",
-          "type": "string",
-          "description": "3 digit alphabetic code for the currency"
-        },
-        {
-          "id": "NumericCode",
-          "label": "Numeric Code",
-          "type": "integer",
-          "description": "3 digit numeric code"
-        },
-        {
-          "id": "WithdrawalDate",
-          "label": "Withdrawal Date",
-          "type": "string",
-          "description": "Date currency withdrawn (values can be ranges or months"
-        },
-        {
-          "id": "Remark",
-          "type": "string",
-          "description": "A general remark or comment"
-        }
-      ]
+      "schema": {
+        "fields": [
+          {
+            "id": "Entity",
+            "type": "string",
+            "description": "Country or region name"
+          },
+          {
+            "id": "Currency",
+            "type": "string",
+            "description": "Name of the currency"
+          },
+          {
+            "id": "AlphabeticCode",
+            "label": "Alphabetic Code",
+            "type": "string",
+            "description": "3 digit alphabetic code for the currency"
+          },
+          {
+            "id": "NumericCode",
+            "label": "Numeric Code",
+            "type": "integer",
+            "description": "3 digit numeric code"
+          },
+          {
+            "id": "WithdrawalDate",
+            "label": "Withdrawal Date",
+            "type": "string",
+            "description": "Date currency withdrawn (values can be ranges or months"
+          },
+          {
+            "id": "Remark",
+            "type": "string",
+            "description": "A general remark or comment"
+          }
+        ]
+      }
     }
   ]
 }
