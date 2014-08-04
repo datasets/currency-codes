@@ -18,6 +18,16 @@
     "name": "Rufus Pollock", 
     "email": "rufus.pollock@okfn.org"
   }],
+  "contributors": [
+    {
+      "name": "Rufus Pollock", 
+      "email": "rufus.pollock@okfn.org"
+    },
+    {
+      "name": "Kristofer D. Kusano",
+      "email": "kdkusano@gmail.com"
+    }
+  ],
   "resources": [
     {
       "path": "data/codes-all.csv",
