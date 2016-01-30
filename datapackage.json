@@ -37,34 +37,40 @@
         "fields": [
           {
             "id": "Entity",
+            "name": "entity",
             "type": "string",
             "description": "Country or region name"
           },
           {
             "id": "Currency",
+            "name": "currency",
             "type": "string",
             "description": "Name of the currency"
           },
           {
             "id": "AlphabeticCode",
+            "name": "alphabetic_code",
             "label": "Alphabetic Code",
             "type": "string",
             "description": "3 digit alphabetic code for the currency"
           },
           {
             "id": "NumericCode",
+            "name": "numeric_code",
             "label": "Numeric Code",
             "type": "integer",
             "description": "3 digit numeric code"
           },
           {
             "id": "WithdrawalDate",
+            "name": "withdrawal_date",
             "label": "Withdrawal Date",
             "type": "string",
             "description": "Date currency withdrawn (values can be ranges or months"
           },
           {
             "id": "Remark",
+            "name": "remark",
             "type": "string",
             "description": "A general remark or comment"
           }
