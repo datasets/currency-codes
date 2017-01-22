@@ -1,4 +1,4 @@
-Entity,Currency,AlphabeticCode,NumericCode,MinorUnit,WithdrawalDate,Remark
+Entity,Currency,AlphabeticCode,NumericCode,MinorUnit
 AFGHANISTAN,Afghani,AFN,971,2
 ÅLAND ISLANDS,Euro,EUR,978,2
 ALBANIA,Lek,ALL,008,2
