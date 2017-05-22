@@ -111,7 +111,7 @@ HUNGARY,Forint,HUF,348,2,
 ICELAND,Iceland Krona,ISK,352,0,
 INDIA,Indian Rupee,INR,356,2,
 INDONESIA,Rupiah,IDR,360,2,
-INTERNATIONAL MONETARY FUND (IMF) ,SDR (Special Drawing Right),XDR,960,N.A.,
+INTERNATIONAL MONETARY FUND (IMF) ,SDR (Special Drawing Right),XDR,960,-,
 IRAN (ISLAMIC REPUBLIC OF),Iranian Rial,IRR,364,2,
 IRAQ,Iraqi Dinar,IQD,368,3,
 IRELAND,Euro,EUR,978,2,
@@ -152,7 +152,7 @@ MARTINIQUE,Euro,EUR,978,2,
 MAURITANIA,Ouguiya,MRO,478,2,
 MAURITIUS,Mauritius Rupee,MUR,480,2,
 MAYOTTE,Euro,EUR,978,2,
-MEMBER COUNTRIES OF THE AFRICAN DEVELOPMENT BANK GROUP,ADB Unit of Account,XUA,965,N.A.,
+MEMBER COUNTRIES OF THE AFRICAN DEVELOPMENT BANK GROUP,ADB Unit of Account,XUA,965,-,
 MEXICO,Mexican Peso,MXN,484,2,
 MEXICO,Mexican Unidad de Inversion (UDI),MXV,979,2,
 MICRONESIA (FEDERATED STATES OF),US Dollar,USD,840,2,
@@ -214,7 +214,7 @@ SEYCHELLES,Seychelles Rupee,SCR,690,2,
 SIERRA LEONE,Leone,SLL,694,2,
 SINGAPORE,Singapore Dollar,SGD,702,2,
 SINT MAARTEN (DUTCH PART),Netherlands Antillean Guilder,ANG,532,2,
-"SISTEMA UNITARIO DE COMPENSACION REGIONAL DE PAGOS ""SUCRE""",Sucre,XSU,994,N.A.,
+"SISTEMA UNITARIO DE COMPENSACION REGIONAL DE PAGOS ""SUCRE""",Sucre,XSU,994,-,
 SLOVAKIA,Euro,EUR,978,2,
 SLOVENIA,Euro,EUR,978,2,
 SOLOMON ISLANDS,Solomon Islands Dollar,SBD,090,2,
@@ -267,16 +267,16 @@ WESTERN SAHARA,Moroccan Dirham,MAD,504,2,
 YEMEN,Yemeni Rial,YER,886,2,
 ZAMBIA,Zambian Kwacha,ZMW,967,2,
 ZIMBABWE,Zimbabwe Dollar,ZWL,932,2,
-ZZ01_Bond Markets Unit European_EURCO,Bond Markets Unit European Composite Unit (EURCO),XBA,955,N.A.,
-ZZ02_Bond Markets Unit European_EMU-6,Bond Markets Unit European Monetary Unit (E.M.U.-6),XBB,956,N.A.,
-ZZ03_Bond Markets Unit European_EUA-9,Bond Markets Unit European Unit of Account 9 (E.U.A.-9),XBC,957,N.A.,
-ZZ04_Bond Markets Unit European_EUA-17,Bond Markets Unit European Unit of Account 17 (E.U.A.-17),XBD,958,N.A.,
-ZZ06_Testing_Code,Codes specifically reserved for testing purposes,XTS,963,N.A.,
-ZZ07_No_Currency,The codes assigned for transactions where no currency is involved,XXX,999,N.A.,
-ZZ08_Gold,Gold,XAU,959,N.A.,
-ZZ09_Palladium,Palladium,XPD,964,N.A.,
-ZZ10_Platinum,Platinum,XPT,962,N.A.,
-ZZ11_Silver,Silver,XAG,961,N.A.,
+ZZ01_Bond Markets Unit European_EURCO,Bond Markets Unit European Composite Unit (EURCO),XBA,955,-,
+ZZ02_Bond Markets Unit European_EMU-6,Bond Markets Unit European Monetary Unit (E.M.U.-6),XBB,956,-,
+ZZ03_Bond Markets Unit European_EUA-9,Bond Markets Unit European Unit of Account 9 (E.U.A.-9),XBC,957,-,
+ZZ04_Bond Markets Unit European_EUA-17,Bond Markets Unit European Unit of Account 17 (E.U.A.-17),XBD,958,-,
+ZZ06_Testing_Code,Codes specifically reserved for testing purposes,XTS,963,-,
+ZZ07_No_Currency,The codes assigned for transactions where no currency is involved,XXX,999,-,
+ZZ08_Gold,Gold,XAU,959,-,
+ZZ09_Palladium,Palladium,XPD,964,-,
+ZZ10_Platinum,Platinum,XPT,962,-,
+ZZ11_Silver,Silver,XAG,961,-,
 AFGHANISTAN,Afghani,AFA,004,,2003-01
 ÅLAND ISLANDS,Markka,FIM,246,,2002-03
 ALBANIA,Old Lek,ALK,,,1989-12
@@ -310,7 +310,7 @@ BRAZIL,Cruzeiro Real,BRR,987,,1994-07
 BULGARIA,Lev A/52,BGJ,,,1989 to 1990
 BULGARIA,Lev A/62,BGK,,,1989 to 1990
 BULGARIA,Lev,BGL,100,,2003-11
-BURMA ,N.A.,BUK,,,1990-02
+BURMA ,-,BUK,,,1990-02
 CHINA,Peoples Bank Dollar,CNX,,,1989-12
 CROATIA,Croatian Dinar,HRD,191,,1995-01
 CROATIA,Croatian Kuna,HRK,191,,2015-06
