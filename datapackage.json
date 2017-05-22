@@ -8,19 +8,19 @@
       "url": "http://opendatacommons.org/licenses/pddl/"
     }
   ],
-  "keywords": [ "iso", "iso-4217", "currency", "codes" ], 
+  "keywords": [ "iso", "iso-4217", "currency", "codes" ],
   "homepage": "http://www.iso.org/iso/currency_codes",
   "sources": [{
-    "name": "SIX Interbank Clearing Ltd (on behalf of ISO)", 
+    "name": "SIX Interbank Clearing Ltd (on behalf of ISO)",
     "email": "office@currency-iso.org"
   }],
   "maintainer": [{
-    "name": "Rufus Pollock", 
+    "name": "Rufus Pollock",
     "email": "rufus.pollock@okfn.org"
   }],
   "contributors": [
     {
-      "name": "Rufus Pollock", 
+      "name": "Rufus Pollock",
       "email": "rufus.pollock@okfn.org"
     },
     {
@@ -31,8 +31,8 @@
   "resources": [
     {
       "path": "data/codes-all.csv",
-      "mimetype": "text/csv", 
-      "size": "16863", 
+      "mimetype": "text/csv",
+      "size": "16863",
       "schema": {
         "fields": [
           {
@@ -58,15 +58,16 @@
             "description": "3 digit numeric code"
           },
           {
+            "name": "MinorUnit",
+            "title": "Minor Unit",
+            "type": "number",
+            "description": ""
+          },
+          {
             "name": "WithdrawalDate",
             "title": "Withdrawal Date",
             "type": "string",
             "description": "Date currency withdrawn (values can be ranges or months"
-          },
-          {
-            "name": "Remark",
-            "type": "string",
-            "description": "A general remark or comment"
           }
         ]
       }
