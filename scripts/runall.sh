@@ -17,23 +17,23 @@ if [ ! -d ./cache ]; then
   mkdir cache
 fi;
 echo Downloading XML files...
-curl -s -o cache/a1.xml "http://www.currency-iso.org/dam/downloads/table_a1.xml"
-curl -s -o cache/a2.xml "http://www.currency-iso.org/dam/downloads/table_a3.xml"
+curl -s -o cache/a1.xml "https://www.currency-iso.org/dam/downloads/lists/list_one.xml"
+curl -s -o cache/a2.xml "https://www.currency-iso.org/dam/downloads/lists/list_three.xml"
 
 # write headers
-echo "Entity,Currency,AlphabeticCode,NumericCode,MinorUnit,WithdrawalDate,Remark" > ${outfile}
+echo "Entity,Currency,AlphabeticCode,NumericCode,MinorUnit,WithdrawalDate" > ${outfile}
 
 # loop through files
 for (( i = 0; i < 2 ; i++ ))
 do
   # set node names/file
   if [ $i == 0 ]; then
-    declare -a nodes=("CtryNm" "CcyNm" "Ccy" "CcyNbr" "CcyMnrUnts")
+    declare -a nodes=("CtryNm" "CcyNm" "Ccy" "CcyNbr" "CcyMnrUnts" "WthdrwlDt")
     f=cache/a1.xml  # A1 table file
     tblroot=/ISO_4217/CcyTbl # where entries are
     rowname=CcyNtry
   else
-    declare -a nodes=("CtryNm" "CcyNm" "Ccy" "CcyNbr" ""  "WthdrwlDt")  # empty columns
+    declare -a nodes=("CtryNm" "CcyNm" "Ccy" "CcyNbr" "CcyMnrUnts"  "WthdrwlDt")  # empty columns
     f=cache/a2.xml
     tblroot=/ISO_4217/HstrcCcyTbl
     rowname=HstrcCcyNtry
@@ -65,7 +65,6 @@ do
       nn=${nodes[$j]}
       valq=`echo "$LSPLIT" | sed -nr "/<${nn}(\sIsFund=.*)?>/,/<\/${nn}>/p" | head -n-1 | tail -n+2`
       val=`echo "$valq" | sed "s/\"/\"\"/g"`  # replace single double quote with double double quote
-
       # check for a quote or comma in val, if non-empty
       if [[ ! -z $val ]]; then
         if [[ $val == *,* || $val != $valq ]]; then

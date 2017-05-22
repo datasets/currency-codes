@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ISO_4217 Pblshd="2014-03-28">
+<ISO_4217 Pblshd="2017-01-01">
 	<HstrcCcyTbl>
 		<HstrcCcyNtry>
 			<CtryNm>AFGHANISTAN</CtryNm>
@@ -119,7 +119,14 @@
 		</HstrcCcyNtry>
 		<HstrcCcyNtry>
 			<CtryNm>BELARUS</CtryNm>
-			<CcyNm>Belarussian Ruble</CcyNm>
+			<CcyNm IsFund="0">Belarusian Ruble</CcyNm>
+			<Ccy>BYR</Ccy>
+			<CcyNbr>974</CcyNbr>
+			<WthdrwlDt>2017-01</WthdrwlDt>
+		</HstrcCcyNtry>
+		<HstrcCcyNtry>
+			<CtryNm>BELARUS</CtryNm>
+			<CcyNm>Belarusian Ruble</CcyNm>
 			<Ccy>BYB</Ccy>
 			<CcyNbr>112</CcyNbr>
 			<WthdrwlDt>2001-01</WthdrwlDt>
@@ -163,7 +170,7 @@
 			<CcyNm>Dinar</CcyNm>
 			<Ccy>BAD</Ccy>
 			<CcyNbr>070</CcyNbr>
-			<WthdrwlDt>1997-07</WthdrwlDt>
+			<WthdrwlDt>1998-07</WthdrwlDt>
 		</HstrcCcyNtry>
 		<HstrcCcyNtry>
 			<CtryNm>BRAZIL</CtryNm>
@@ -238,6 +245,13 @@
 			<WthdrwlDt>1995-01</WthdrwlDt>
 		</HstrcCcyNtry>
 		<HstrcCcyNtry>
+			<CtryNm>CROATIA</CtryNm>
+			<CcyNm>Croatian Kuna</CcyNm>
+			<Ccy>HRK</Ccy>
+			<CcyNbr>191</CcyNbr>
+			<WthdrwlDt>2015-06</WthdrwlDt>
+		</HstrcCcyNtry>
+		<HstrcCcyNtry>
 			<CtryNm>CYPRUS</CtryNm>
 			<CcyNm>Cyprus Pound</CcyNm>
 			<Ccy>CYP</Ccy>
@@ -270,12 +284,6 @@
 			<Ccy>ECV</Ccy>
 			<CcyNbr>983</CcyNbr>
 			<WthdrwlDt>2000-09</WthdrwlDt>
-		</HstrcCcyNtry>
-		<HstrcCcyNtry>
-			<CtryNm>EQUATORIAL GUINEA</CtryNm>
-			<CcyNm>Ekwele</CcyNm>
-			<Ccy>EQE</Ccy>
-			<WthdrwlDt>1989-12</WthdrwlDt>
 		</HstrcCcyNtry>
 		<HstrcCcyNtry>
 			<CtryNm>EQUATORIAL GUINEA</CtryNm>
@@ -468,7 +476,7 @@
 		</HstrcCcyNtry>
 		<HstrcCcyNtry>
 			<CtryNm>LATVIA</CtryNm>
-			<CcyNm IsFund="2">Latvian Lats</CcyNm>
+			<CcyNm IsFund=" ">Latvian Lats</CcyNm>
 			<Ccy>LVL</Ccy>
 			<CcyNbr>428</CcyNbr>
 			<WthdrwlDt>2014-01</WthdrwlDt>
@@ -492,6 +500,13 @@
 			<Ccy>ZAL</Ccy>
 			<CcyNbr>991</CcyNbr>
 			<WthdrwlDt>1995-03</WthdrwlDt>
+		</HstrcCcyNtry>
+		<HstrcCcyNtry>
+			<CtryNm>LITHUANIA</CtryNm>
+			<CcyNm IsFund=" ">Lithuanian Litas</CcyNm>
+			<Ccy>LTL</Ccy>
+			<CcyNbr>440</CcyNbr>
+			<WthdrwlDt>2014-12</WthdrwlDt>
 		</HstrcCcyNtry>
 		<HstrcCcyNtry>
 			<CtryNm>LITHUANIA</CtryNm>
@@ -529,15 +544,16 @@
 			<WthdrwlDt>2004-12</WthdrwlDt>
 		</HstrcCcyNtry>
 		<HstrcCcyNtry>
+			<CtryNm>MALAWI</CtryNm>
+			<CcyNm>Kwacha</CcyNm>
+			<Ccy>MWK</Ccy>
+			<CcyNbr>454</CcyNbr>
+			<WthdrwlDt>2016-02</WthdrwlDt>
+		</HstrcCcyNtry>
+		<HstrcCcyNtry>
 			<CtryNm>MALDIVES</CtryNm>
 			<CcyNm>Maldive Rupee</CcyNm>
 			<Ccy>MVQ</Ccy>
-			<WthdrwlDt>1989-12</WthdrwlDt>
-		</HstrcCcyNtry>
-		<HstrcCcyNtry>
-			<CtryNm>MALI</CtryNm>
-			<CcyNm>Mali Franc</CcyNm>
-			<Ccy>MAF</Ccy>
 			<WthdrwlDt>1989-12</WthdrwlDt>
 		</HstrcCcyNtry>
 		<HstrcCcyNtry>
@@ -629,6 +645,13 @@
 		</HstrcCcyNtry>
 		<HstrcCcyNtry>
 			<CtryNm>PERU</CtryNm>
+			<CcyNm>Nuevo Sol </CcyNm>
+			<Ccy>PEN</Ccy>
+			<CcyNbr>604</CcyNbr>
+			<WthdrwlDt>2015-12</WthdrwlDt>
+		</HstrcCcyNtry>
+		<HstrcCcyNtry>
+			<CtryNm>PERU</CtryNm>
 			<CcyNm>Sol</CcyNm>
 			<Ccy>PEH</Ccy>
 			<WthdrwlDt>1989 to 1990</WthdrwlDt>
@@ -673,6 +696,13 @@
 			<CcyNm>Leu A/52</CcyNm>
 			<Ccy>ROK</Ccy>
 			<WthdrwlDt>1989 to 1990</WthdrwlDt>
+		</HstrcCcyNtry>
+		<HstrcCcyNtry>
+			<CtryNm>ROMANIA</CtryNm>
+			<CcyNm>New Romanian Leu </CcyNm>
+			<Ccy>RON</Ccy>
+			<CcyNbr>946</CcyNbr>
+			<WthdrwlDt>2015-06</WthdrwlDt>
 		</HstrcCcyNtry>
 		<HstrcCcyNtry>
 			<CtryNm>ROMANIA</CtryNm>
@@ -932,6 +962,13 @@
 			<Ccy>VEF</Ccy>
 			<CcyNbr>937</CcyNbr>
 			<WthdrwlDt>2011-12</WthdrwlDt>
+		</HstrcCcyNtry>
+		<HstrcCcyNtry>
+			<CtryNm>VENEZUELA (BOLIVARIAN REPUBLIC OF)</CtryNm>
+			<CcyNm>Bolivar</CcyNm>
+			<Ccy>VEF</Ccy>
+			<CcyNbr>937</CcyNbr>
+			<WthdrwlDt>2016-02</WthdrwlDt>
 		</HstrcCcyNtry>
 		<HstrcCcyNtry>
 			<CtryNm>VIETNAM</CtryNm>
