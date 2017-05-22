@@ -72,6 +72,10 @@ do
         fi
       fi
 
+      if [[ $val == 'N.A.' ]]; then
+        val="-"
+      fi
+
       # concat to csv row
       if [[ -z $a ]]; then
         # first column
