@@ -54,13 +54,13 @@
           {
             "name": "NumericCode",
             "title": "Numeric Code",
-            "type": "integer",
+            "type": "number",
             "description": "3 digit numeric code"
           },
           {
             "name": "MinorUnit",
             "title": "Minor Unit",
-            "type": "number",
+            "type": "string",
             "description": ""
           },
           {
