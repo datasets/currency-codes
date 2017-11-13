@@ -12,7 +12,8 @@
   "homepage": "http://www.iso.org/iso/currency_codes",
   "sources": [{
     "name": "SIX Interbank Clearing Ltd (on behalf of ISO)",
-    "email": "office@currency-iso.org"
+    "email": "office@currency-iso.org",
+    "title": "SIX Interbank Clearing Ltd (on behalf of ISO)"
   }],
   "maintainer": [{
     "name": "Rufus Pollock",
@@ -20,17 +21,18 @@
   }],
   "contributors": [
     {
-      "name": "Rufus Pollock",
+      "title": "Rufus Pollock",
       "email": "rufus.pollock@okfn.org"
     },
     {
-      "name": "Kristofer D. Kusano",
+      "title": "Kristofer D. Kusano",
       "email": "kdkusano@gmail.com"
     }
   ],
   "resources": [
     {
       "path": "data/codes-all.csv",
+      "name": "codes-all",
       "mimetype": "text/csv",
       "size": "16863",
       "schema": {
