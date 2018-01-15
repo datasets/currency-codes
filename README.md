@@ -8,6 +8,13 @@ readable form freely.
 
 [iso-4217]: http://www.currency-iso.org/en/home/tables.html
 
+## Contents
+
+- [Data](#data)
+- [Install](#install)
+- [Usage](#usage)
+- [License](#license)
+
 ## Data
 
 The data provided (see data/codes.csv) in this data package provides a
@@ -20,23 +27,17 @@ separate tables:
 [a1]: http://www.currency-iso.org/en/home/tables/table-a1.html
 [a3]: http://www.currency-iso.org/en/home/tables/table-a3.html
 
-## Preparation
-
-Run the following script to download and convert the data from XML to
-CSV:
+## Install 
 
 ```
-cd scripts/
-./runall.sh
+npm install @datasets/currency-codes
 ```
 
-The raw XML files are stored in `./archive`. The cleaned data are
-`./data/codes-all.csv`.
+## Usage
 
-## Version
-
-The current tables have a published date of 28 March 2014 (as indicated
-in the XML files).
+```
+const codes = require('@datasets/currency-codes');
+```
 
 ## License
 

@@ -1,0 +1,19 @@
+{
+  "name": "@datasets/currency-codes",
+  "version": "1.0.0",
+  "description": "ISO 4217 Currency Codes",
+  "main": "data.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datasets/currency-codes.git#npm"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/datasets/currency-codes/issues"
+  },
+  "homepage": "https://github.com/datasets/currency-codes/tree/npm#readme"
+}
