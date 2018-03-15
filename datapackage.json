@@ -3,9 +3,9 @@
   "title": "ISO 4217 Currency Codes",
   "licenses": [
     {
-      "id": "odc-pddl",
-      "label": "Open Data Commons Public Domain Dedication and Licence (PDDL)",
-      "url": "http://opendatacommons.org/licenses/pddl/"
+      "name": "ODC-PDDL-1.0",
+      "path": "http://opendatacommons.org/licenses/pddl/",
+      "title": "Open Data Commons Public Domain Dedication and License v1.0"
     }
   ],
   "keywords": [ "iso", "iso-4217", "currency", "codes" ],
@@ -15,14 +15,11 @@
     "email": "office@currency-iso.org",
     "title": "SIX Interbank Clearing Ltd (on behalf of ISO)"
   }],
-  "maintainer": [{
-    "name": "Rufus Pollock",
-    "email": "rufus.pollock@okfn.org"
-  }],
   "contributors": [
     {
       "title": "Rufus Pollock",
-      "email": "rufus.pollock@okfn.org"
+      "email": "rufus.pollock@okfn.org",
+      "role": "maintainer"
     },
     {
       "title": "Kristofer D. Kusano",
