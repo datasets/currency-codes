@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/datasets/currency-codes/issues"
   },
-  "homepage": "https://github.com/datasets/currency-codes/tree/npm#readme"
+  "homepage": "https://github.com/datasets/currency-codes/tree/npm#readme",
+  "devDependencies": {
+    "papaparse": "^4.6.0",
+    "request": "^2.88.0"
+  }
 }
