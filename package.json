@@ -1,6 +1,6 @@
 {
   "name": "@datasets/currency-codes",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ISO 4217 Currency Codes",
   "main": "data.json",
   "scripts": {
