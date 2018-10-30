@@ -22,6 +22,10 @@ separate tables:
 
 ## Preparation
 
+The script requires recode package to be istalled. Install it by running:
+
+`sudo apt install recode`
+
 Run the following script to download and convert the data from XML to
 CSV:
 
