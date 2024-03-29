@@ -2,9 +2,7 @@ List of currencies and their 3 digit codes as defined by [ISO 4217][iso-4217]. T
 provided here is the consolidation of Table A.1 "Current currency & funds code list" and
 Table A.3 "Historic denominations".
 
-Note that the [ISO page][iso-4217] offers pay-for PDFs but also links to
-<http://www.currency-iso.org/en/home/tables.html> which does provide them in machine
-readable form freely.
+Note that the [ISO page][iso-4217] offers pay-for PDFs but also links to [http://www.currency-iso.org/en/home/tables.html](http://www.currency-iso.org/en/home/tables.html) which does provide them in machine readable form freely.
 
 [iso-4217]: http://www.currency-iso.org/en/home/tables.html
 
