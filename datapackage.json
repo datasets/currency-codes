@@ -8,13 +8,20 @@
       "title": "Open Data Commons Public Domain Dedication and License v1.0"
     }
   ],
-  "keywords": [ "iso", "iso-4217", "currency", "codes" ],
+  "keywords": [
+    "iso",
+    "iso-4217",
+    "currency",
+    "codes"
+  ],
   "homepage": "http://www.iso.org/iso/currency_codes",
-  "sources": [{
-    "name": "SIX Interbank Clearing Ltd (on behalf of ISO)",
-    "email": "office@currency-iso.org",
-    "title": "SIX Interbank Clearing Ltd (on behalf of ISO)"
-  }],
+  "sources": [
+    {
+      "name": "SIX Interbank Clearing Ltd (on behalf of ISO)",
+      "email": "office@currency-iso.org",
+      "title": "SIX Interbank Clearing Ltd (on behalf of ISO)"
+    }
+  ],
   "contributors": [
     {
       "title": "Rufus Pollock",
@@ -71,5 +78,6 @@
         ]
       }
     }
-  ]
+  ],
+  "collection": "reference-data"
 }
