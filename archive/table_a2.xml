@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ISO_4217 Pblshd="2018-08-20">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ISO_4217 Pblshd="2024-09-01">
 	<HstrcCcyTbl>
 		<HstrcCcyNtry>
 			<CtryNm>AFGHANISTAN</CtryNm>
@@ -252,6 +252,13 @@
 			<Ccy>HRK</Ccy>
 			<CcyNbr>191</CcyNbr>
 			<WthdrwlDt>2015-06</WthdrwlDt>
+		</HstrcCcyNtry>
+		<HstrcCcyNtry>
+			<CtryNm>CROATIA</CtryNm>
+			<CcyNm>Kuna</CcyNm>
+			<Ccy>HRK</Ccy>
+			<CcyNbr>191</CcyNbr>
+			<WthdrwlDt>2023-01</WthdrwlDt>
 		</HstrcCcyNtry>
 		<HstrcCcyNtry>
 			<CtryNm>CYPRUS</CtryNm>
@@ -793,6 +800,13 @@
 			<WthdrwlDt>2006-10</WthdrwlDt>
 		</HstrcCcyNtry>
 		<HstrcCcyNtry>
+			<CtryNm>SIERRA LEONE</CtryNm>
+			<CcyNm>Leone</CcyNm>
+			<Ccy>SLL</Ccy>
+			<CcyNbr>694</CcyNbr>
+			<WthdrwlDt>2023-12</WthdrwlDt>
+		</HstrcCcyNtry>
+		<HstrcCcyNtry>
 			<CtryNm>SLOVAKIA</CtryNm>
 			<CcyNm>Slovak Koruna</CcyNm>
 			<Ccy>SKK</Ccy>
@@ -1113,6 +1127,13 @@
 			<Ccy>ZWR</Ccy>
 			<CcyNbr>935</CcyNbr>
 			<WthdrwlDt>2009-06</WthdrwlDt>
+		</HstrcCcyNtry>
+		<HstrcCcyNtry>
+			<CtryNm>ZIMBABWE</CtryNm>
+			<CcyNm>Zimbabwe Dollar</CcyNm>
+			<Ccy>ZWL</Ccy>
+			<CcyNbr>932</CcyNbr>
+			<WthdrwlDt>2024-09</WthdrwlDt>
 		</HstrcCcyNtry>
 		<HstrcCcyNtry>
 			<CtryNm>ZZ01_Gold-Franc</CtryNm>
