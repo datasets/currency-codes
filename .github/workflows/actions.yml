@@ -1,0 +1,62 @@
+name: Update currency codes
+
+on:
+  # Schedule to run on the 1st day of each month
+  schedule:
+    - cron: '0 0 1 * *'
+
+  # Run on push to main branch
+  push:
+    branches:
+      - main
+
+  # Run on pull requests targeting the main branch
+  pull_request:
+    branches:
+      - main
+
+  # Allows manual triggering of the workflow
+  workflow_dispatch: 
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    if: github.ref == 'refs/heads/main'
+
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python 3.12
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y recode
+
+    - name: Run shell script
+      run: |
+        cd scripts
+        ./runall.sh
+
+    - name: Configure Git
+      run: |
+        git config --global user.email "${{ env.CI_COMMIT_EMAIL }}"
+        git config --global user.name "${{ env.CI_COMMIT_NAME }}"
+      env:
+        CI_COMMIT_NAME: "Automated commit"
+        CI_COMMIT_EMAIL: "actions@users.noreply.github.com"
+
+    - name: Commit and Push changes
+      run: |
+        git diff --quiet && echo "No changes to commit" || (
+          git add . &&
+          git commit -m "${{ env.CI_COMMIT_MESSAGE }}" &&
+          git push origin main
+        )
+      env:
+        CI_COMMIT_MESSAGE: "Automated commit"
