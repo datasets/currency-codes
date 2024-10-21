@@ -4,7 +4,7 @@ Table A.3 "Historic denominations".
 
 Note that the [ISO page][iso-4217] offers pay-for PDFs but also links to [http://www.currency-iso.org/en/home/tables.html](http://www.currency-iso.org/en/home/tables.html) which does provide them in machine readable form freely.
 
-[iso-4217]: http://www.currency-iso.org/en/home/tables.html
+[iso-4217]: https://www.six-group.com/en/products-services/financial-information/data-standards.html
 
 ## Data
 
@@ -15,8 +15,8 @@ separate tables:
 * [ISO Tables A.1 - Current Currencies and Funds][a1]
 * [ISO Tables A.3 - List of codes for historic denominations of currencies & funds][a3]
 
-[a1]: http://www.currency-iso.org/en/home/tables/table-a1.html
-[a3]: http://www.currency-iso.org/en/home/tables/table-a3.html
+[a1]: https://www.six-group.com/dam/download/financial-information/data-center/iso-currrency/lists/list-one.xml
+[a3]: https://www.six-group.com/dam/download/financial-information/data-center/iso-currrency/lists/list-three.xml
 
 ## Preparation
 
