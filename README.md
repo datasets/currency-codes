@@ -1,4 +1,4 @@
-<a href="https://datahub.io/core/currency-codes"><img src="https://badgen.net/badge/icon/View%20on%20datahub.io/orange?icon=https://datahub.io/datahub-cube-badge-icon.svg&label&scale=1.25)" alt="badge" /></a>
+<a className="gh-badge" href="https://datahub.io/core/currency-codes"><img src="https://badgen.net/badge/icon/View%20on%20datahub.io/orange?icon=https://datahub.io/datahub-cube-badge-icon.svg&label&scale=1.25" alt="badge" /></a>
 
 List of currencies and their 3 digit codes as defined by [ISO 4217][iso-4217]. The data
 provided here is the consolidation of Table A.1 "Current currency & funds code list" and
