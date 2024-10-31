@@ -1,4 +1,14 @@
 #!/bin/bash
+
+set -euo pipefail
+
+# Check if xmllint is installed
+if ! command -v xmllint &> /dev/null
+then
+    echo "Error: xmllint is not installed."
+    exit 1
+fi
+
 # Force UTF-8 encoding
 export LC_ALL=en_US.UTF-8
 LANG=C.UTF-8
@@ -94,8 +104,8 @@ do
 done
 
 # convert special entities and ensure UTF-8 output
-iconv -f ISO-8859-1 -t UTF-8 ${outfile} -o ${outfile}.utf8
-mv ${outfile}.utf8 ${outfile}
+iconv -f ISO-8859-1 -t UTF-8 "${outfile}" > "${outfile}.utf8"
+mv "${outfile}.utf8" "${outfile}"
 
 # clean up
 rm -r cache/
