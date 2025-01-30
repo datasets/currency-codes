@@ -103,10 +103,6 @@ do
   echo " "
 done
 
-# convert special entities and ensure UTF-8 output
-iconv -f ISO-8859-1 -t UTF-8 "${outfile}" > "${outfile}.utf8"
-mv "${outfile}.utf8" "${outfile}"
-
 # clean up
 rm -r cache/
 echo complete
