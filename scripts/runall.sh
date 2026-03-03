@@ -27,8 +27,8 @@ if [ ! -d ./cache ]; then
   mkdir cache
 fi;
 echo Downloading XML files...
-curl -s -o cache/a1.xml "https://www.six-group.com/dam/download/financial-information/data-center/iso-currrency/lists/list-one.xml"
-curl -s -o cache/a2.xml "https://www.six-group.com/dam/download/financial-information/data-center/iso-currrency/lists/list-three.xml"
+curl --fail --silent --show-error --location -o cache/a1.xml "https://www.six-group.com/dam/download/financial-information/data-center/iso-currrency/lists/list-one.xml"
+curl --fail --silent --show-error --location -o cache/a2.xml "https://www.six-group.com/dam/download/financial-information/data-center/iso-currrency/lists/list-three.xml"
 
 # write headers
 echo "Entity,Currency,AlphabeticCode,NumericCode,MinorUnit,WithdrawalDate" > ${outfile}
