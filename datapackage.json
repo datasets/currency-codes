@@ -76,7 +76,8 @@
             "description": "Date currency withdrawn (values can be ranges or months"
           }
         ]
-      }
+      },
+      "description": "Complete list of ISO 4217 currency codes including current and historical currencies, with alphabetic and numeric codes, minor unit, and withdrawal date for discontinued currencies."
     }
   ],
   "collection": "reference-data"
