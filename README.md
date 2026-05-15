@@ -10,7 +10,7 @@ Note that the [ISO page][iso-4217] offers pay-for PDFs but also links to [http:/
 
 ## Data
 
-The data provided (see data/codes.csv) in this data package provides a
+The data provided (see data/codes-all.csv) in this data package provides a
 consolidated list of currency (and funds) codes by combining these two
 separate tables:
 
