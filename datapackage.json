@@ -1,10 +1,11 @@
 {
   "name": "currency-codes",
   "title": "ISO 4217 Currency Codes",
+  "description": "ISO 4217 currency codes: current currencies (Table A.1) and historic denominations (Table A.3), sourced from SIX Interbank Clearing Ltd on behalf of ISO.",
   "licenses": [
     {
       "name": "ODC-PDDL-1.0",
-      "path": "http://opendatacommons.org/licenses/pddl/",
+      "path": "https://opendatacommons.org/licenses/pddl/",
       "title": "Open Data Commons Public Domain Dedication and License v1.0"
     }
   ],
@@ -18,8 +19,9 @@
   "sources": [
     {
       "name": "SIX Interbank Clearing Ltd (on behalf of ISO)",
-      "email": "office@currency-iso.org",
-      "title": "SIX Interbank Clearing Ltd (on behalf of ISO)"
+      "title": "SIX Interbank Clearing Ltd (on behalf of ISO)",
+      "path": "https://www.six-group.com/en/products-services/financial-information/data-standards.html",
+      "email": "office@currency-iso.org"
     }
   ],
   "contributors": [
@@ -37,6 +39,7 @@
     {
       "path": "data/codes-all.csv",
       "name": "codes-all",
+      "description": "Consolidated list of ISO 4217 current and historic currency codes, one row per country–currency pair.",
       "mimetype": "text/csv",
       "size": "16863",
       "schema": {
@@ -60,20 +63,20 @@
           {
             "name": "NumericCode",
             "title": "Numeric Code",
-            "type": "number",
-            "description": "3 digit numeric code"
+            "type": "string",
+            "description": "3 digit numeric code (zero-padded, e.g. '008')"
           },
           {
             "name": "MinorUnit",
             "title": "Minor Unit",
             "type": "string",
-            "description": ""
+            "description": "Number of digits after the decimal separator; '-' for currencies with no minor unit defined"
           },
           {
             "name": "WithdrawalDate",
             "title": "Withdrawal Date",
             "type": "string",
-            "description": "Date currency withdrawn (values can be ranges or months"
+            "description": "Date the currency was withdrawn; values may be a year-month (YYYY-MM) or a date range (e.g. '1990-07 to 1990-09'); empty for current currencies"
           }
         ]
       }

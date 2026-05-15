@@ -4,13 +4,13 @@ List of currencies and their 3 digit codes as defined by [ISO 4217][iso-4217]. T
 provided here is the consolidation of Table A.1 "Current currency & funds code list" and
 Table A.3 "Historic denominations".
 
-Note that the [ISO page][iso-4217] offers pay-for PDFs but also links to [http://www.currency-iso.org/en/home/tables.html](http://www.currency-iso.org/en/home/tables.html) which does provide them in machine readable form freely.
+Note that the [ISO page][iso-4217] offers pay-for PDFs but also links to [SIX Group's data standards page][iso-4217] which provides them in machine readable form freely.
 
-[iso-4217]: https://www.six-group.com/en/products-services/financial-information/data-standards.html
+[iso-4217]: https://www.six-group.com/en/products-services/financial-information/market-reference-data/data-standards.html
 
 ## Data
 
-The data provided (see data/codes.csv) in this data package provides a
+The data provided (see data/codes-all.csv) in this data package provides a
 consolidated list of currency (and funds) codes by combining these two
 separate tables:
 
@@ -22,9 +22,9 @@ separate tables:
 
 ## Preparation
 
-The script requires recode package to be istalled. Install it by running:
+The script requires `xmllint` (from the `libxml2-utils` package). Install it by running:
 
-`sudo apt install recode`
+`sudo apt install libxml2-utils`
 
 Run the following script to download and convert the data from XML to
 CSV:
@@ -36,11 +36,6 @@ cd scripts/
 
 The raw XML files are stored in `./archive`. The cleaned data are
 `./data/codes-all.csv`.
-
-## Version
-
-The current tables have a published date of 28 March 2014 (as indicated
-in the XML files).
 
 ## License
 
