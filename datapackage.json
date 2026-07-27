@@ -82,5 +82,8 @@
       }
     }
   ],
-  "collection": "reference-data"
+  "collection": "reference-data",
+  "has_solutions": [
+    "global-country-region-reference-data"
+  ]
 }
