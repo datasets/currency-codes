@@ -41,13 +41,13 @@
       "format": "csv",
       "name": "codes-all",
       "description": "Consolidated list of ISO 4217 current and historic currency codes, one row per country–currency pair.",
-      "mimetype": "text/csv",
+      "mediatype": "text/csv",
       "schema": {
         "fields": [
           {
             "name": "Entity",
             "type": "string",
-            "description": "Country or other entity that uses the currency; also includes 13 'ZZ..' rows for funds and metals and a few international bodies"
+            "description": "Country or other entity that uses the currency; also includes 'ZZ..' rows for funds and metals and some international bodies"
           },
           {
             "name": "Currency",
@@ -58,7 +58,7 @@
             "name": "AlphabeticCode",
             "title": "Alphabetic Code",
             "type": "string",
-            "description": "3-letter alphabetic code for the currency; empty on 3 'No universal currency' rows",
+            "description": "3-letter alphabetic code for the currency; empty where the source says 'No universal currency'",
             "constraints": {
               "pattern": "^[A-Z]{3}$"
             }
@@ -67,7 +67,7 @@
             "name": "NumericCode",
             "title": "Numeric Code",
             "type": "string",
-            "description": "3-digit numeric code, zero-padded, e.g. '008'; empty on 6 rows",
+            "description": "3-digit numeric code, zero-padded, e.g. '008' (read as text); empty where the source gives none",
             "constraints": {
               "pattern": "^[0-9]{3}$"
             }
@@ -76,7 +76,7 @@
             "name": "MinorUnit",
             "title": "Minor Unit",
             "type": "string",
-            "description": "Number of digits after the decimal separator; '-' where the source says N.A. (13 rows); empty on withdrawn rows"
+            "description": "Number of digits after the decimal separator; '-' where the source says N.A.; empty for withdrawn currencies and for entities with no currency"
           },
           {
             "name": "WithdrawalDate",
