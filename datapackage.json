@@ -38,16 +38,16 @@
   "resources": [
     {
       "path": "data/codes-all.csv",
+      "format": "csv",
       "name": "codes-all",
       "description": "Consolidated list of ISO 4217 current and historic currency codes, one row per country–currency pair.",
       "mimetype": "text/csv",
-      "size": "16863",
       "schema": {
         "fields": [
           {
             "name": "Entity",
             "type": "string",
-            "description": "Country or region name"
+            "description": "Country or other entity that uses the currency; also includes 13 'ZZ..' rows for funds and metals and a few international bodies"
           },
           {
             "name": "Currency",
@@ -58,25 +58,31 @@
             "name": "AlphabeticCode",
             "title": "Alphabetic Code",
             "type": "string",
-            "description": "3 digit alphabetic code for the currency"
+            "description": "3-letter alphabetic code for the currency; empty on 3 'No universal currency' rows",
+            "constraints": {
+              "pattern": "^[A-Z]{3}$"
+            }
           },
           {
             "name": "NumericCode",
             "title": "Numeric Code",
             "type": "string",
-            "description": "3 digit numeric code (zero-padded, e.g. '008')"
+            "description": "3-digit numeric code, zero-padded, e.g. '008'; empty on 6 rows",
+            "constraints": {
+              "pattern": "^[0-9]{3}$"
+            }
           },
           {
             "name": "MinorUnit",
             "title": "Minor Unit",
             "type": "string",
-            "description": "Number of digits after the decimal separator; '-' for currencies with no minor unit defined"
+            "description": "Number of digits after the decimal separator; '-' where the source says N.A. (13 rows); empty on withdrawn rows"
           },
           {
             "name": "WithdrawalDate",
             "title": "Withdrawal Date",
             "type": "string",
-            "description": "Date the currency was withdrawn; values may be a year-month (YYYY-MM) or a date range (e.g. '1990-07 to 1990-09'); empty for current currencies"
+            "description": "Date the currency was withdrawn: YYYY-MM or a range (e.g. '1990-07 to 1990-09'); empty for current currencies"
           }
         ]
       }

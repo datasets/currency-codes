@@ -70,7 +70,7 @@ do
     for (( j = 0 ; j < ${#nodes[@]} ; j++ ))
     do
       nn=${nodes[$j]}
-      valq=`echo "$LSPLIT" | sed -nr "/<${nn}(\sIsFund=.*)?>/,/<\/${nn}>/p" | sed '$d' | tail -n +2`
+      valq=`echo "$LSPLIT" | sed -nr "/<${nn}([[:space:]]IsFund=.*)?>/,/<\/${nn}>/p" | sed '$d' | tail -n +2`
       val=`echo "$valq" | sed "s/\"/\"\"/g"`
 
       if [[ ! -z $val ]]; then
