@@ -1,0 +1,7 @@
+Attribution for currency-codes
+
+Contains information from the ISO 4217 currency code lists published by SIX Group, the ISO 4217 maintenance agency (https://www.six-group.com/en/products-services/financial-information/market-reference-data/data-standards.html). Licence: unclear (none stated by the source).
+
+Changes made to the source data: List One (list-one.xml) and List Three (list-three.xml) are downloaded as XML. For each entry the country name, currency name, alphabetic code, numeric code, minor unit and withdrawal date are copied into one CSV. "N.A." in the minor unit is written as "-". Current and withdrawn entries are put in the same file, told apart by the withdrawal date.
+
+Not endorsed by, or affiliated with, SIX Group or ISO.

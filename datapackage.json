@@ -1,12 +1,12 @@
 {
   "name": "currency-codes",
   "title": "ISO 4217 Currency Codes",
-  "description": "ISO 4217 currency codes: current currencies (Table A.1) and historic denominations (Table A.3), sourced from SIX Interbank Clearing Ltd on behalf of ISO.",
+  "description": "ISO 4217 currency codes: current currencies (Table A.1) and historic denominations (Table A.3), published by SIX Group, the ISO 4217 maintenance agency.",
   "licenses": [
     {
       "name": "ODC-PDDL-1.0",
-      "path": "https://opendatacommons.org/licenses/pddl/",
-      "title": "Open Data Commons Public Domain Dedication and License v1.0"
+      "path": "https://opendatacommons.org/licenses/pddl/1.0/",
+      "title": "Open Data Commons Public Domain Dedication and License v1.0. Applies only to the maintainers' own selection and formatting of the data. No licence was found for the underlying ISO 4217 lists; their reuse terms are unclear."
     }
   ],
   "keywords": [
@@ -15,12 +15,12 @@
     "currency",
     "codes"
   ],
-  "homepage": "http://www.iso.org/iso/currency_codes",
+  "homepage": "https://www.six-group.com/en/products-services/financial-information/market-reference-data/data-standards.html",
   "sources": [
     {
-      "name": "SIX Interbank Clearing Ltd (on behalf of ISO)",
-      "title": "SIX Interbank Clearing Ltd (on behalf of ISO)",
-      "path": "https://www.six-group.com/en/products-services/financial-information/data-standards.html",
+      "name": "SIX Group",
+      "title": "SIX Group (ISO 4217 maintenance agency)",
+      "path": "https://www.six-group.com/en/products-services/financial-information/market-reference-data/data-standards.html",
       "email": "office@currency-iso.org"
     }
   ],
